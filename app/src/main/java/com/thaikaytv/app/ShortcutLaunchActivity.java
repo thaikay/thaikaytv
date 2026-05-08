@@ -7,7 +7,6 @@ public class ShortcutLaunchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // Chỉ dùng để nhận shortcut intent, thực tế sẽ mở PlayerActivity
         finish();
     }
 }
